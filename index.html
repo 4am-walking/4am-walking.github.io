@@ -1,171 +1,222 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Personal portfolio hosting my projects.
 	Author: Chandler Matheny
 -->
 <html>
-	<head>
-		<!-- Google tag (gtag.js) -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-FB7XDGRL9L"></script>
-		<script>
-  			window.dataLayer = window.dataLayer || [];
-  			function gtag(){dataLayer.push(arguments);}
-  			gtag('js', new Date());
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-FB7XDGRL9L"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  			gtag('config', 'G-FB7XDGRL9L');
-		</script>
-		<title>Chandler's Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	
-	<body class="is-preload">
+      gtag("config", "G-FB7XDGRL9L");
+    </script>
+    <title>Chandler's Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+  <body class="is-preload">
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+      <!-- Header -->
+      <header id="header" class="alt">
+        <h1><a href="index.html">Welcome to my Portfolio!</a></h1>
+        <nav>
+          <a href="#menu">Menu</a>
+        </nav>
+      </header>
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<h1><a href="index.html">Welcome to my Portfolio!</a></h1>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
-					</header>
+      <!-- Menu -->
+      <nav id="menu">
+        <div class="inner">
+          <h2>Menu</h2>
+          <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="writeups.html">Write-ups</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+          </ul>
+          <a href="#" class="close">Close</a>
+        </div>
+      </nav>
 
-				<!-- Menu -->
-					<nav id="menu">
-						<div class="inner">
-							<h2>Menu</h2>
-							<ul class="links">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="projects.html">Projects</a></li>
-								<li><a href="writeups.html">Write-ups</a></li>
-								<li><a href="aboutme.html">About Me</a></li>
-							</ul>
-							<a href="#" class="close">Close</a>
-						</div>
-					</nav>
+      <!-- Banner -->
+      <section id="banner">
+        <div class="inner">
+          <div class="logo"><span class="solid icon fa-shield-alt"></span></div>
+          <h2>Welcome to my Portfolio!</h2>
+          <p>Check out my bio and projects below!</p>
+        </div>
+      </section>
 
-				<!-- Banner -->
-					<section id="banner">
-						<div class="inner">
-							<div class="logo"><span class="solid icon fa-shield-alt"></span></div>
-							<h2>Welcome to my Portfolio!</h2>
-							<p>Check out my bio and projects below!</p>
-						</div>
-					</section>
+      <!-- Wrapper -->
+      <section id="wrapper">
+        <!-- About Me -->
+        <section id="one" class="wrapper spotlight style1">
+          <div class="inner">
+            <a href="aboutme.html" class="image"
+              ><img src="images/temp prof pic.jpg" alt=""
+            /></a>
+            <div class="content">
+              <h2 class="major">Who Am I?</h2>
+              <p>
+                My name is Chandler Matheny and I am a senior Cyber Security
+                student at the University of Tennessee at Chattanooga. I have a
+                passion for learning all sorts of new things, but recently I've
+                been really interested in Linux desktop customization.
+              </p>
+              <a href="aboutme.html" class="special">Learn more</a>
+            </div>
+          </div>
+        </section>
 
-				<!-- Wrapper -->
-					<section id="wrapper">
+        <!-- Projects -->
+        <section id="projects" class="wrapper alt style1">
+          <div class="inner">
+            <h2 class="major">Featured Projects</h2>
+            <p>
+              Check out my featured projects below! These are my most crowning
+              achievements (or just what I think is cool at the time).
+            </p>
+            <section class="features">
+              <article>
+                <a href="project1.html" class="image"
+                  ><img src="images/Vostro.avif" alt=""
+                /></a>
+                <h3 class="major">Setting up my first Linux daily driver.</h3>
+                <p>
+                  Check out how I installed Arch Linux on an old Dell Vostro
+                  1720. Due to the limited processing power, I also took a stab
+                  at installing dwm as my window manager.
+                </p>
+                <a href="project1.html" class="special">Learn more</a>
+              </article>
+            </section>
+            <ul class="actions">
+              <li><a href="projects.html" class="button">Browse All</a></li>
+            </ul>
+          </div>
+        </section>
 
-						<!-- About Me -->
-							<section id="one" class="wrapper spotlight style1">
-								<div class="inner">
-									<a href="aboutme.html" class="image"><img src="images/temp prof pic.jpg" alt="" /></a>
-									<div class="content">
-										<h2 class="major">Who Am I?</h2>
-										<p>My name is Chandler Matheny and I am a senior Cyber Security student at the University of Tennessee at Chattanooga. I have a passion for learning all sorts of new things, but recently I've been really interested in Linux desktop customization.</p>
-										<a href="aboutme.html" class="special">Learn more</a>
-									</div>
-								</div>
-							</section>
+        <!-- Write-ups -->
+        <section id="write-ups" class="wrapper alt style1">
+          <div class="inner">
+            <h2 class="major">Featured Write-ups</h2>
+            <p>
+              Check out my featured write-ups below! These come from hacking
+              boxes and CTFs.
+            </p>
+            <section class="features">
+              <!-- Timelapse -->
+              <article>
+                <a href="writeupTimelapse.html" class="image"
+                  ><img src="images/timelapse/Timelapse.png" alt=""
+                /></a>
+                <h3 class="major">Timelapse Write-up</h3>
+                <p>
+                  Learn how I exploited Active Directory in Timelapse on Hack
+                  the Box!
+                </p>
+                <a href="writeupTimelapse.html" class="special">Learn More</a>
+              </article>
+              <!-- Trick -->
+              <article>
+                <a href="writeupTrick.html" class="image"
+                  ><img src="images/trick/trick.png" alt=""
+                /></a>
+                <h3 class="major">Trick Write-up</h3>
+                <p>
+                  From subdomain enumeration to well... more subdomain
+                  enumeration, learn how tricky this box is!
+                </p>
+                <a href="writeupTrick.html" class="special">Learn More</a>
+              </article>
+            </section>
 
-						<!-- Projects -->
-							<section id="projects" class="wrapper alt style1">
-								<div class="inner">
-									<h2 class="major">Featured Projects</h2>
-									<p>Check out my featured projects below! These are my most crowning achievements (or just what I think is cool at the time).</p>
-									<section class="features">
-										<article>
-											<a href="project1.html" class="image"><img src="images/Vostro.avif" alt="" /></a>
-											<h3 class="major">Setting up my first Linux daily driver.</h3>
-											<p>Check out how I installed Arch Linux on an old Dell Vostro 1720. Due to the limited processing power, I also took a stab at installing dwm as my window manager.</p>
-											<a href="project1.html" class="special">Learn more</a>
-										</article>
-									</section>
-									<ul class="actions">
-										<li><a href="projects.html" class="button">Browse All</a></li>
-									</ul>
-								</div>
-							</section>
+            <ul class="actions">
+              <li><a href="writeups.html" class="button">Browse All</a></li>
+            </ul>
+          </div>
+        </section>
+      </section>
 
-							<!-- Write-ups -->
-								<section id ="write-ups" class="wrapper alt style1">
-									<div class="inner">
-										<h2 class="major">Featured Write-ups</h2>
-										<p>Check out my featured write-ups below! These come from hacking boxes and CTFs.</p>
-										<section class="features">
-											<!-- Timelapse -->
-											<article>
-												<a href="writeupTimelapse.html" class="image"><img src="images/timelapse/Timelapse.png" alt=""/></a>
-												<h3 class="major">Timelapse Write-up</h3>
-												<p>Learn how I exploited Active Directory in Timelapse on Hack the Box!</p>
-												<a href="writeupTimelapse.html" class="special">Learn More</a>
-											</article>
-											<!-- Trick -->
-											<article>
-												<a href="writeupTrick.html" class="image"><img src="images/trick/trick.png" alt=""/></a>
-												<h3 class="major">Trick Write-up</h3>
-												<p>From subdomain enumeration to well... more subdomain enumeration, learn how tricky this box is!</p>
-												<a href="writeupTrick.html" class="special">Learn More</a>
-											</article>
-										</section>
-										
-										
-										<ul class="actions">
-											<li><a href="writeups.html" class="button">Browse All</a></li>
-										</ul>
-									</div>
-								</section>
+      <!-- Footer -->
+      <section id="footer">
+        <div class="inner">
+          <h2 class="major">Get in touch</h2>
+          <p>
+            For any questions or feedback related to who I am or my portfolio,
+            feel free to reach out to me by filling out the information below.
+          </p>
+          <form method="post" action="https://formspree.io/f/xbjvraqr">
+            <div class="fields">
+              <div class="field">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" />
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" />
+              </div>
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="4"></textarea>
+              </div>
+            </div>
+            <ul class="actions">
+              <li><input type="submit" value="Send Message" /></li>
+            </ul>
+          </form>
+          <ul class="contact">
+            <li class="icon solid fa-envelope">
+              <a href="mailto:chandler.matheny@gmail.com"
+                >chandler.matheny@gmail.com</a
+              >
+            </li>
+            <li class="icon solid brands fa-linkedin-in">
+              <a
+                href="https://www.linkedin.com/in/chandler-matheny-4989b3218/"
+                target="_blank"
+                >Chandler Matheny</a
+              >
+            </li>
+            <li class="icon solid fa-cube">
+              <a
+                href="https://app.hackthebox.com/profile/1066955"
+                target="_blank"
+                >subliminalAI on Hack the Box</a
+              >
+            </li>
+          </ul>
+          <ul class="copyright">
+            <li>&copy;2023 Chandler Matheny</li>
+          </ul>
+        </div>
+      </section>
+    </div>
 
-					</section>
-
-				<!-- Footer -->
-					<section id="footer">
-						<div class="inner">
-							<h2 class="major">Get in touch</h2>
-							<p>For any questions or feedback related to who I am or my portfolio, feel free to reach out to me by filling out the information below.</p>
-							<form method="post" action="https://formspree.io/f/xbjvraqr">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="email" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-							<ul class="contact">
-								<li class="icon solid fa-envelope"><a href="mailto:chandler.matheny@gmail.com">chandler.matheny@gmail.com</a></li>
-								<li class="icon solid brands fa-linkedin-in"><a href="https://www.linkedin.com/in/chandler-matheny-4989b3218/" target="_blank">Chandler Matheny</a></li>
-								<li class="icon solid fa-cube"><a href="https://app.hackthebox.com/profile/1066955" target="_blank">subliminalAI on Hack the Box</a></li>
-							</ul>
-							<ul class="copyright">
-								<li>&copy;2023 Chandler Matheny</li>
-							</ul>
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
